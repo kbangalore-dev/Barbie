@@ -21,8 +21,8 @@
     <RestorePackages>true</RestorePackages>
     <UapDefaultAssetScale>200</UapDefaultAssetScale>
     <UseDotNetNativeSharedAssemblyFrameworkPackage>True</UseDotNetNativeSharedAssemblyFrameworkPackage>
-    <PackageCertificateThumbprint>9C3F91B3060995A6FF4A0131F66F0DE2504FB9B1</PackageCertificateThumbprint>
-    <PackageCertificateKeyFile>BarbieApp.W10_StoreKey.pfx</PackageCertificateKeyFile>
+    <PackageCertificateThumbprint>21F21B7EF7DBE41E96A33BFB2B7F50B5213FDCE6</PackageCertificateThumbprint>
+    <PackageCertificateKeyFile>BarbieApp.W10_TemporaryKey.pfx</PackageCertificateKeyFile>
     <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
     <AppxBundle>Always</AppxBundle>
     <AppxBundlePlatforms>x86|x64|arm</AppxBundlePlatforms>
@@ -449,6 +449,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="BarbieApp.W10_StoreKey.pfx" />
+    <None Include="BarbieApp.W10_TemporaryKey.pfx" />
     <None Include="project.json" />
   </ItemGroup>
   <ItemGroup>

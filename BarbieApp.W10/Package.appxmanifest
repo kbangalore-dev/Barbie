@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" IgnorableNamespaces="uap mp">
-  <Identity Name="15508RonavApps.BarbieLifeinaDreamHouseHD" Publisher="CN=89E80921-6477-4330-9ED7-4613259EAD43" Version="4.1.36.0" />
+  <Identity Name="15508RonavApps.BarbieLifeinaDreamHouseHD" Publisher="CN=Ronav Apps" Version="4.1.37.0" />
   <mp:PhoneIdentity PhoneProductId="4cbf3e00-0cfc-47e0-8789-41332a25b3d5" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>Barbie:Life in a DreamHouse HD</DisplayName>
@@ -16,7 +16,7 @@
   <Applications>
     <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="BarbieApp.App">
       <uap:VisualElements DisplayName="Barbie App" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="Barbie: Life in the Dreamhouse is an online web series of computer-animated shorts produced by Arc Productions and distributed by Mattel. The series debuted in May 11, 2012 and is available on Barbie.com, Netflix and YouTube." BackgroundColor="transparent">
-        <uap:SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="#e6e6e6" />
+        <uap:SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="#FFFFFF" />
         <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" Square310x310Logo="Assets\Square310x310Logo.png" Square71x71Logo="Assets\Square71x71Logo.png">
           <uap:ShowNameOnTiles>
             <uap:ShowOn Tile="square150x150Logo" />
